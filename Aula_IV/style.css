@@ -1,0 +1,11 @@
+img{
+    width: 150px;
+}
+
+table{
+    border: 2px dotted orangered;
+}
+
+td{
+    border: 2px solid orangered;
+}
