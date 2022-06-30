@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Listas em HTML</title>
+    </head>
+
+    <body>
+
+        <h1>Lista Ordenada</h1>
+
+        <ol>
+            <li>Karol</li>
+            <li>Amanda</li>
+            <li>Marina</li>
+        </ol>
+
+        <h1>Lista ordenada iniciando pelo número que eu quiser</h1>
+
+        <ol start="7">
+            <li>Banana</li>
+            <li>Maçã</li>
+            <li>Uva</li>
+        </ol>
+
+        <h2>Listas Aninhadas</h2>
+        
+        <ol start="7">
+            <li>primeiro item</li>
+            <li>segundo item      <!--veja que a tag de fechamento </li> não é colocada aqui-->
+                <ol start="14">
+                    <li>segundo item - primeiro subitem</li>
+                    <li>segundo item - segundo subitem</li>
+                </ol>
+            </li>      <!--aqui está a tag de fechamento </li>-->
+            <li>terceiro item</li>
+        </ol>
+
+        <h2>Lista Ordenada Alfabeticamente</h2>
+
+        <ol type="a">
+            <li>Karol</li>
+            <li>Amanda</li>
+            <li>Marina</li>
+        </ol>
+
+        <ol type="A">
+            <li>Karol</li>
+            <li>Amanda</li>
+            <li>Marina</li>
+        </ol>
+
+        <h2>Lista ordenada iniciando pela letra do alfabeto que eu quiser</h2>
+
+        <ol type="a" start="3">
+            <li>Banana</li>
+            <li>Maçã</li>
+            <li>Uva</li>
+        </ol>
+
+        <h1>Lista Desordenada - com bolinha (padrão)</h1>
+
+        <ul>
+            <li>Karol</li>
+            <li>Amanda</li>
+            <li>Marina</li>
+        </ul>
+
+        <h1>Lista Desordenada - com quadradinhos</h1>
+
+        <ul type="square">
+            <li>Karol</li>
+            <li>Amanda</li>
+            <li>Marina</li>
+        </ul>
+
+        <h1>Lista Desordenada - com circulo vazado</h1>
+
+        <ul type="circle">
+            <li>Karol</li>
+            <li>Amanda</li>
+            <li>Marina</li>
+        </ul>
+
+    </body>
+</html>
