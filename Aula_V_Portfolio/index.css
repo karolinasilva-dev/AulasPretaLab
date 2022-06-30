@@ -1,0 +1,50 @@
+/*estilização para o corpo inteiro do site*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+}
+
+/*estilização para o body*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: rgb(8, 87, 8);
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-menu li>a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: inherit;
+}

@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="shortcut icon" href="img/Karolina.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karolina Portfolio PretaLab</title>
-    <script src="https://fontawesome.com/icons" date-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="index.css"
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    
 </head>
+
+
 <body>
     <!--Cabeçalho-->
-    <header>
-        <!--Onde vão ficar os links de acesso da página-->
+    <header class="header-menu">
+        <!--O header faz parte da semântica, de criar o "cabeçalho" do site-->
         <nav>
             <!--Lista de links-->
-            <ul>
+            <ul class="lista-menu">
                 <li>
                     <a href="#formacao">Formação</a>
                 </li>
@@ -27,12 +32,13 @@
             </ul>
         </nav>
     </header>
-    <!--Tag principal que fala o scopo do nosso site-->
+    <!-- O Main faz parte da semântica, de criar o "corpo" do site -->
     <main>
+        <!-- O Section faz parte da semântica, de criar e separar as sessões do nosso site -->
         <section>
-            <!--Seção do meu site-->
+            <!-- O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/partes do nosso site -->
             <article>
-                <!--conteúdo independente e autocontido-->
+            
                 <div>
                     <img src="./img/Karolina.png" alt="Caricatura de Karolina">
                 </div>
@@ -116,13 +122,13 @@
 
 
     </main>
-
-    <footer><!--rodapé-->
-        <div>
-            <ul>
-                <li><i class="fa-solid fa-envelope">karolinasayonara@gmail.com</i></li>
-                <li><i class="fab fa-linkedin estilo-icon">karolinasayonara</i></li>
-                <li><i class="fa-brands fa-github">karolinasilva-dev</i></li>           
+<!-- O Footer faz parte da semântica, de criar o rodapé do site -->
+    <footer class="footer">
+        <div class="container">
+            <ul id="contato" class="lista-footer">
+                <li><i class="fas fa-envelope-square estilo-icon"></i><a href="mailto:karolinasayonara@gmail.com" class="links">karolinasayonara@gmail.com</a></li>
+                <li><i class="fab fa-linkedin estilo-icon"></i><a href="https://www.linkedin.com/in/karolinasayonara/" target="_blank" class="links">karolinasayonara</a></li>
+                <li><i class="fab fa-github-square estilo-icon"></i><a href="https://github.com/karolinasilva-dev" target="_blank" class="links">karolinasilva-dev</a></li>          
             </ul>
         </div>
     </footer>
