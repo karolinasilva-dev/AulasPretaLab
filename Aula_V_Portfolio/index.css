@@ -27,7 +27,7 @@ li {
     padding-bottom: 32px;
     padding-top: 32px;
     height: 60px;
-    background-color: rgb(0, 49, 4);
+    background-color: rgb(150, 90, 0);
 }
 
 .header-menu nav {
@@ -44,8 +44,9 @@ li {
 }
 
 .lista-menu li>a {
-    color: #fff;
-    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 550;
     text-decoration: inherit;
 }
 
@@ -95,7 +96,7 @@ li {
 .section-dois {
     height: 100vh;
     display: flex;
-    background-color: rgb(90, 114, 92);
+    background-color: rgb(0, 0, 0);
 }
 
 .article-lista {
@@ -107,7 +108,7 @@ li {
 
 .topico-principal {
     font-size: 36px;
-    color: rgb(128, 25, 25);
+    color: rgb(150, 90, 0);
 }
 
 .lista-item {
@@ -121,13 +122,13 @@ li {
 .lista-titulo {
     margin-bottom: 5px;
     font-size: 22px;
-    color: rgb(133, 63, 63);
+    color: rgb(185, 112, 2);
     font-weight: 700;
 }
 
 .lista-local {
     font-size: 18px;
-    color: rgb(128, 25, 25);
+    color: rgb(150, 90, 0);
 }
 
 .lista-descricao {
@@ -145,28 +146,30 @@ li {
 
 }
 
+/*criei essa direção de complemento sec-tres para poder usar cores diferentes nas letras das caixas selecionadas*/
+
 .topico-principal-sec-tres {
     font-size: 36px;
-    color: rgb(40, 54, 83);
+    color: rgb(150, 90, 0);
 }
 
 .lista-titulo-sec-tres {
     margin-bottom: 5px;
     font-size: 22px;
-    color: rgb(74, 83, 102);
+    color: rgb(185, 112, 2);
     font-weight: 700; 
 
 }
 
 .subtitulo-lista-sec-tres {
     font-size: 20px;
-    color: rgb(40, 54, 83);
+    color: rgb(150, 90, 0);
     font-weight: 500;
 }
 
 .lista-local-sec-tres {
     font-size: 18px;
-    color: rgb(70, 103, 170);
+    color: rgb(211, 127, 2);
 }
 
 .lista-descricao-sec-tres {
@@ -178,7 +181,7 @@ li {
 }
 
 .footer {
-    background-color: rgb(1, 59, 6);
+    background-color: rgb(0, 0, 0);
     height: 20vh;
     display: flex;
     align-items: center;
